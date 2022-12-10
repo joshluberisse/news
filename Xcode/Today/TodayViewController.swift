@@ -45,7 +45,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         // If there's no update required, use NCUpdateResult.NoData
         // If there's an update, use NCUpdateResult.NewData
 
-        loadData(NewsCategory.general.rawValue)
+        loadData(NewsCategory.business.rawValue)
 
         completionHandler(NCUpdateResult.newData)
     }
